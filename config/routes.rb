@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   resources :urls
 
-  get 'click_count_up_1' => 'urls#click_count_up_1'
+  post 'click_count_up_1' => 'urls#click_count_up_1'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
